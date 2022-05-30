@@ -1,0 +1,28 @@
+{
+  "name": "manage-landing-page",
+  "version": "1.0.0",
+  "description": "TailwindCSS landing page",
+  "main": "app.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./tailwind.css -o ./style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdmarufsarker/manage-landing-page.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "tailwindcss",
+    "npm"
+  ],
+  "author": "Md. Maruf Sarker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdmarufsarker/manage-landing-page/issues"
+  },
+  "homepage": "https://github.com/mdmarufsarker/manage-landing-page#readme",
+  "dependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
